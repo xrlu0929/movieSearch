@@ -17,6 +17,7 @@
 		F7E805062329D631002C03E9 /* movieSearchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E805052329D631002C03E9 /* movieSearchUITests.m */; };
 		F7E805192329DFA1002C03E9 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E805172329DFA1002C03E9 /* TableViewCell.m */; };
 		F7E8051A2329DFA1002C03E9 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7E805182329DFA1002C03E9 /* TableViewCell.xib */; };
+		F7E8051F2329E59E002C03E9 /* MovieInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E8051E2329E59E002C03E9 /* MovieInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		F7E805162329DFA1002C03E9 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
 		F7E805172329DFA1002C03E9 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		F7E805182329DFA1002C03E9 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		F7E8051D2329E59E002C03E9 /* MovieInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieInfo.h; sourceTree = "<group>"; };
+		F7E8051E2329E59E002C03E9 /* MovieInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +163,8 @@
 		F7E8051C2329E075002C03E9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F7E8051D2329E59E002C03E9 /* MovieInfo.h */,
+				F7E8051E2329E59E002C03E9 /* MovieInfo.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -296,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7E804E62329D62C002C03E9 /* ViewController.m in Sources */,
+				F7E8051F2329E59E002C03E9 /* MovieInfo.m in Sources */,
 				F7E805192329DFA1002C03E9 /* TableViewCell.m in Sources */,
 				F7E804F12329D630002C03E9 /* main.m in Sources */,
 				F7E804E32329D62C002C03E9 /* AppDelegate.m in Sources */,

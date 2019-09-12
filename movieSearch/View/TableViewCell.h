@@ -8,9 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class MovieInfo;
 NS_ASSUME_NONNULL_BEGIN
 
 @interface TableViewCell : UITableViewCell
+- (void)loadCellWithMovieInfo:(MovieInfo *)info;
++ (CGFloat)cellHeight;
 
 @end
 
